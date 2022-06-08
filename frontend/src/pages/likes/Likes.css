@@ -1,0 +1,43 @@
+.likes_Section {
+  background-color: rgb(44, 119, 94);
+  padding: 1px 0px;
+  width: 40vw;
+}
+
+.likes_Section header {
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.likesDiv {
+  background-color: aquamarine;
+  display: flex;
+  text-align: center;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 0;
+}
+
+.likesDiv img {
+  width: 30px;
+  height: 30px;
+  padding: auto;
+  margin: 5pxpx 0px 0px 5px;
+}
+
+.likesDiv a {
+  padding: 2% !important;
+  text-decoration: none;
+  display: inline-flex;
+  text-align: center !important;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .likes_Section {
+    width: 94vw;
+    margin: 3%;
+  }
+}
